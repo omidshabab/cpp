@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/omidshabab/projects/cpp/quadratic_equation",
-      "program": "/Users/omidshabab/projects/cpp/quadratic_equation/build/Debug/outDebug"
+      "cwd": "/Users/omidshabab/projects/cpp",
+      "program": "/Users/omidshabab/projects/cpp/build/Debug/outDebug"
     }
   ]
 }
