@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/omidshabab/projects/cpp/array_elements",
-      "program": "/Users/omidshabab/projects/cpp/array_elements/build/Debug/outDebug"
+      "cwd": "/Users/omidshabab/projects/cpp",
+      "program": "/Users/omidshabab/projects/cpp/build/Debug/outDebug"
     }
   ]
 }
