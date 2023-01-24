@@ -3,9 +3,7 @@
 using namespace std;
 
 int main(){
-    int x, a[10];
-
-    for(int i = 0; i<10; i++) a[i]=0;
+    int x, a[10] = {0};
 
     for( ; ; ){
         cin >> x;
