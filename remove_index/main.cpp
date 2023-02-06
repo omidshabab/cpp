@@ -2,19 +2,21 @@
 
 using namespace std;
 
-void remove(float a[], int i){
-    for(int x = i; x < sizeof(a); x++){
-        n = n - 1;
+void remove(int a[], int i){
+    int size = sizeof(a)/sizeof(a[0]);
+    for(int x = i; x < size; x++)
         a[x] = a[x+1];
-    }
 }
 
 int main(){
     int data[] = { 5, 4, 8, 22, 56, 32, 24 };
 
-    remove(data, sizeof(data), 3);
+    remove(data, 3);
 
-    for(int i = 0; i < sizeof(data); i++){
+    int size = sizeof(data)/sizeof(data[0]);
+    cout << size;
+
+    for(int i = 0; i < size; i++){
         cout << data[i] << " ";
     }
 
