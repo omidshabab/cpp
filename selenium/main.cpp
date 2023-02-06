@@ -1,4 +1,5 @@
 #include <webdriverxx/webdriverxx.h>
+
 using namespace webdriverxx;
 
 int main() {
