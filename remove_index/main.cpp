@@ -11,14 +11,11 @@ void remove(int a[], int i){
 int main(){
     int data[] = { 5, 4, 8, 22, 56, 32, 24 };
 
-    remove(data, 3);
+    int x = remove(data, 4);
 
     int size = sizeof(data)/sizeof(data[0]);
-    cout << size;
-
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i < size; i++)
         cout << data[i] << " ";
-    }
 
     return 0;
 }
